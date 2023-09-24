@@ -1,0 +1,46 @@
+.calculate-loan{
+    color:#014747;
+    .short-info{
+        font-weight: 500;
+        margin-bottom:10px;
+        span{
+            font-weight: 700;
+            color:#71bb44;
+            font-style: italic;
+        }
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        
+        th, td {
+          padding: 12px;
+          text-align: center;
+          border-bottom: 1px solid #ccc;
+        }
+      
+        th {
+          background-color: #2e7d32;
+          color:#f2f2f2;
+          
+        }
+      
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+      
+        tr:hover {
+          background-color: #ddd;
+        }
+        tfoot{
+            tr{
+                td{
+                    background-color: #2e7d32;
+                    color:#f2f2f2;
+                }
+            }
+        }
+      }
+
+}

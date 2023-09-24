@@ -1,0 +1,34 @@
+.new-loan{
+    form{
+        .form-content{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .customer-info{
+                width: 30%;
+            }
+            .loan-content{
+                width: 30%;
+                margin-top:8px;
+                .btn{
+                    margin-top: 15px;
+                }
+            }
+            .calculate-table{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 35%;
+            }
+        }
+        .submit-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top:50px;
+        }
+    }
+}

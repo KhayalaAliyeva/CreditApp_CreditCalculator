@@ -1,0 +1,15 @@
+.register-page{
+    // height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title{
+        font-size:35px;
+        font-weight: 700;
+        margin-bottom: 35px;
+        color:#71bb44;
+        
+    }
+}
+

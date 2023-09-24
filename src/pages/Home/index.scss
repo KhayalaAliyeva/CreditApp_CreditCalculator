@@ -1,0 +1,17 @@
+.home-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .page-title{
+        font-size:35px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color:#71bb44;
+    }
+    a{
+        display: block;
+        margin-top: 24px;
+    }
+    
+}

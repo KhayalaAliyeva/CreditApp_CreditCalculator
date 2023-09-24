@@ -1,0 +1,19 @@
+.calculator-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .head-section{
+        text-align: center;
+        .title{
+            
+            font-size:35px;
+            font-weight: 700;
+            margin-bottom: 35px;
+            color:#71bb44;
+        }
+        .info{
+            color:#014747;
+        }
+    }
+}

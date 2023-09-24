@@ -1,0 +1,37 @@
+.registration-form{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    .identification {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .serial-info {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+    
+      .name-info {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .addresses {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .other-information {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      button {
+        margin-top: 24px;
+      }
+}
+
